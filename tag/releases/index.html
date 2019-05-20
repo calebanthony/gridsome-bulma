@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="lang">
+  <head>
+    <title data-vue-tag="true">Hello, world! - Gridsome Bulma Starter</title><meta data-vue-tag="true" charset="utf-8"/><meta data-vue-tag="true" name="generator" content="Gridsome v0.5.4"/><meta data-vue-tag="true" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/><meta data-vue-tag="true" data-key="description" name="description" content="A baseline Gridsome starter to get you going with Bulma."/><meta data-vue-tag="true" data-key="format-detection" name="format-detection" content="telephone=no"/><link data-vue-tag="true" rel="icon" type="image/png" sizes="16x16" href="/gridsome-bulma/assets/static/favicon.ce0531f.9bb7ffa.png"/><link data-vue-tag="true" rel="icon" type="image/png" sizes="32x32" href="/gridsome-bulma/assets/static/favicon.ac8d93a.9bb7ffa.png"/><link data-vue-tag="true" rel="icon" type="image/png" sizes="96x96" href="/gridsome-bulma/assets/static/favicon.b9532cc.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="76x76" href="/gridsome-bulma/assets/static/favicon.f22e9f3.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="152x152" href="/gridsome-bulma/assets/static/favicon.62d22cb.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="120x120" href="/gridsome-bulma/assets/static/favicon.1539b60.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="167x167" href="/gridsome-bulma/assets/static/favicon.dc0cdc5.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="180x180" href="/gridsome-bulma/assets/static/favicon.7b22250.9bb7ffa.png"/><noscript data-vue-tag="true" ><style>.g-image--loading{display:none;}</style></noscript><link rel="preload" href="/gridsome-bulma/assets/css/styles.0dd7fe25.css" as="style"><link rel="preload" href="/gridsome-bulma/assets/js/app.8f16557a.js" as="script"><link rel="preload" href="/gridsome-bulma/assets/js/component--tag.2a22570c.js" as="script"><link rel="prefetch" href="/gridsome-bulma/assets/js/component--404.5502db9e.js"><link rel="prefetch" href="/gridsome-bulma/assets/js/component--about.1ac1595d.js"><link rel="prefetch" href="/gridsome-bulma/assets/js/component--home.eac80f3d.js"><link rel="prefetch" href="/gridsome-bulma/assets/js/component--post.538ea785.js"><link rel="prefetch" href="/gridsome-bulma/assets/js/page-query.43604115.js"><link rel="stylesheet" href="/gridsome-bulma/assets/css/styles.0dd7fe25.css">
+  </head>
+  <body data-vue-tag="">
+    <script>
+      // Add dark / light detection that runs before Vue.js load. Borrowed from overreacted.io
+      (function() {
+        window.__onThemeChange = function() {};
+        function setTheme(newTheme) {
+          window.__theme = newTheme;
+          preferredTheme = newTheme;
+          document.body.setAttribute('data-theme', newTheme);
+          window.__onThemeChange(newTheme);
+        }
+
+        var preferredTheme;
+        try {
+          preferredTheme = localStorage.getItem('theme');
+        } catch (err) { }
+
+        window.__setPreferredTheme = function(newTheme) {
+          setTheme(newTheme);
+          try {
+            localStorage.setItem('theme', newTheme);
+          } catch (err) {}
+        }
+
+        var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        darkQuery.addListener(function(e) {
+          window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+        });
+
+        setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+      })();
+    </script>
+
+    <div id="app" data-server-rendered="true"><nav role="navigation" aria-label="primary navigation" class="navbar"><div class="container"><div class="navbar-brand"><a href="/gridsome-bulma/" class="navbar-item is-size-4 has-text-weight-bold active">
+  Gridsome Bulma Starter
+</a><a role="button" aria-label="menu" aria-expanded="false" class="navbar-burger burger"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div><div class="navbar-menu"><div class="navbar-end"><a href="/gridsome-bulma/about" class="navbar-item">
+            About
+          </a><a href="//github.com/calebanthony/gridsome-bulma" class="navbar-item">
+            GitHub
+          </a></div></div></div></nav><main class="section"><h1 class="title is-size-1 has-text-centered">
+    # Releases
+  </h1><div class="posts"><div class="card"><!----><div class="card-content"><a href="/gridsome-bulma/say-hello-to-gridsome" class="is-size-4 has-text-weight-bold">
+      Say hello to Gridsome 🎉
+    </a><p class="content">A new static site generator baby is born. It's highly inspired by Gatsby.js (React based) but built on top of Vue.js. We have been working on it for a year and will have a beta ready soon. You can expect this baby to grow up fast!</p><div class="content">
+  Posted 7. February 2019.
+  <strong>3 min read.</strong></div></div><!----></div></div></main><footer class="footer has-text-centered"><span>Copyright © 2019. </span><span>Powered by <a href="//gridsome.org"> Gridsome </a></span></footer></div>
+    <script src="/gridsome-bulma/assets/js/app.8f16557a.js" defer></script><script src="/gridsome-bulma/assets/js/component--tag.2a22570c.js" defer></script>
+  </body>
+</html>

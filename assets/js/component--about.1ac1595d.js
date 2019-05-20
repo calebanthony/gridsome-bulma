@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{244:function(t,n,s){"use strict";s.r(n);var e={metaInfo:{title:"About Us"}},u=s(36),a=Object(u.a)(e,function(){var t=this.$createElement;return(this._self._c||t)("Layout",[this._v("\n  This is just a basic 'About Us' page!\n")])},[],!1,null,null,null);n.default=a.exports}}]);

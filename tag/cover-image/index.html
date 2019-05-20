@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="lang">
+  <head>
+    <title data-vue-tag="true">Hello, world! - Gridsome Bulma Starter</title><meta data-vue-tag="true" charset="utf-8"/><meta data-vue-tag="true" name="generator" content="Gridsome v0.5.4"/><meta data-vue-tag="true" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/><meta data-vue-tag="true" data-key="description" name="description" content="A baseline Gridsome starter to get you going with Bulma."/><meta data-vue-tag="true" data-key="format-detection" name="format-detection" content="telephone=no"/><link data-vue-tag="true" rel="icon" type="image/png" sizes="16x16" href="/gridsome-bulma/assets/static/favicon.ce0531f.9bb7ffa.png"/><link data-vue-tag="true" rel="icon" type="image/png" sizes="32x32" href="/gridsome-bulma/assets/static/favicon.ac8d93a.9bb7ffa.png"/><link data-vue-tag="true" rel="icon" type="image/png" sizes="96x96" href="/gridsome-bulma/assets/static/favicon.b9532cc.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="76x76" href="/gridsome-bulma/assets/static/favicon.f22e9f3.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="152x152" href="/gridsome-bulma/assets/static/favicon.62d22cb.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="120x120" href="/gridsome-bulma/assets/static/favicon.1539b60.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="167x167" href="/gridsome-bulma/assets/static/favicon.dc0cdc5.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="180x180" href="/gridsome-bulma/assets/static/favicon.7b22250.9bb7ffa.png"/><noscript data-vue-tag="true" ><style>.g-image--loading{display:none;}</style></noscript><link rel="preload" href="/gridsome-bulma/assets/css/styles.0dd7fe25.css" as="style"><link rel="preload" href="/gridsome-bulma/assets/js/app.8f16557a.js" as="script"><link rel="preload" href="/gridsome-bulma/assets/js/component--tag.2a22570c.js" as="script"><link rel="prefetch" href="/gridsome-bulma/assets/js/component--404.5502db9e.js"><link rel="prefetch" href="/gridsome-bulma/assets/js/component--about.1ac1595d.js"><link rel="prefetch" href="/gridsome-bulma/assets/js/component--home.eac80f3d.js"><link rel="prefetch" href="/gridsome-bulma/assets/js/component--post.538ea785.js"><link rel="prefetch" href="/gridsome-bulma/assets/js/page-query.43604115.js"><link rel="stylesheet" href="/gridsome-bulma/assets/css/styles.0dd7fe25.css">
+  </head>
+  <body data-vue-tag="">
+    <script>
+      // Add dark / light detection that runs before Vue.js load. Borrowed from overreacted.io
+      (function() {
+        window.__onThemeChange = function() {};
+        function setTheme(newTheme) {
+          window.__theme = newTheme;
+          preferredTheme = newTheme;
+          document.body.setAttribute('data-theme', newTheme);
+          window.__onThemeChange(newTheme);
+        }
+
+        var preferredTheme;
+        try {
+          preferredTheme = localStorage.getItem('theme');
+        } catch (err) { }
+
+        window.__setPreferredTheme = function(newTheme) {
+          setTheme(newTheme);
+          try {
+            localStorage.setItem('theme', newTheme);
+          } catch (err) {}
+        }
+
+        var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        darkQuery.addListener(function(e) {
+          window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+        });
+
+        setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+      })();
+    </script>
+
+    <div id="app" data-server-rendered="true"><nav role="navigation" aria-label="primary navigation" class="navbar"><div class="container"><div class="navbar-brand"><a href="/gridsome-bulma/" class="navbar-item is-size-4 has-text-weight-bold active">
+  Gridsome Bulma Starter
+</a><a role="button" aria-label="menu" aria-expanded="false" class="navbar-burger burger"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div><div class="navbar-menu"><div class="navbar-end"><a href="/gridsome-bulma/about" class="navbar-item">
+            About
+          </a><a href="//github.com/calebanthony/gridsome-bulma" class="navbar-item">
+            GitHub
+          </a></div></div></div></nav><main class="section"><h1 class="title is-size-1 has-text-centered">
+    # Cover Image
+  </h1><div class="posts"><div class="card"><a href="/gridsome-bulma/a-post-with-a-cover-image" class="card-image"><figure class="image is-16by9"><img alt="Cover image" src="data:image/svg+xml,%3csvg fill='none' viewBox='0 0 860 573' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdefs%3e%3cfilter id='__svg-blur-3'%3e%3cfeGaussianBlur in='SourceGraphic' stdDeviation='10'/%3e%3c/filter%3e%3c/defs%3e%3cimage x='0' y='0' filter='url(%23__svg-blur-3)' width='860' height='573' xlink:href='data:image/jpeg%3bbase64%2c/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAArAEADASIAAhEBAxEB/8QAHAAAAQQDAQAAAAAAAAAAAAAABwECAwUABAYI/8QAMRAAAQMCAwcCAwkAAAAAAAAAAQACAwQRBQYhEhMxQVGRoSJhcYGxFiMyQkNScsHh/8QAGQEAAwEBAQAAAAAAAAAAAAAAAQIEAAMF/8QAJhEAAQMDAgUFAAAAAAAAAAAAAQACAwQREiFBEyIxUZEkUoGh4f/aAAwDAQACEQMRAD8A8%2bmMkpzYHHkrWOjLjwW/T4YXW0KqICkF1QNpnHkpm0jjyK6ymwVzrek9la0%2bXXOt6fC3LuUcXnoFwbaFx/KVM3D3HkiVT5Ve4CzPCsqfJz3fppg6PuldHJ2QwpaBwI0KsoaFxtoUToMlv0%2b6PZbTcpGMXMZ7Ls2eNu6lfDIdkJ4jJCLy09OOl5bK1p56psbXR4dCb8CXnVcTDjdRC68Lgx37mtF%2b6yfGqyYWqKmd46OkJ8K0sp/aow%2bsHR9kQY8VxGIgihpAPc/6p34/i7HNcWU1O1pvpZo%2bd0Oo8bkihMdMGxX/ABP4vd8zwHsE2bGaqoZszzulba1n2d9UcKUahiUyVx0MhRZwnPeIRzbt7MJqjfRm0Gu8FdG3O2Ntb6MComm/MvOndefXVbXtG2Bpw6qenxN0crXNqKmMcNpj9fqEhhpSbmMfaYy1oFhKfARszBnPMVfSinpqeDDRe73wE7bvbaJ0HwVSM35up9kuqt7GBYiSFrrj42/tDb7Q1Mdt1idYP5628qGozZiWoFdJJ7208rphStbjgLeVP65z8uJr8j8XKia3MpTKSdT5WuEvMhQZFe3gFOJCOY7rN8eoUPNOHALXKGITzK7qs3h6lNcADolC1yhYJdslNJPMpCTdMJKBKIC//9k=' /%3e%3c/svg%3e" width="860" data-src="/gridsome-bulma/assets/static/alexandr-podvalny-220262-unsplash.07cc2b7.4903438.jpg" data-srcset="/gridsome-bulma/assets/static/alexandr-podvalny-220262-unsplash.a67b0b2.4903438.jpg 480w, /gridsome-bulma/assets/static/alexandr-podvalny-220262-unsplash.07cc2b7.4903438.jpg 860w" data-sizes="(max-width: 860px) 100vw, 860px" class="g-image g-image--lazy g-image--loading"><noscript><img src="/gridsome-bulma/assets/static/alexandr-podvalny-220262-unsplash.07cc2b7.4903438.jpg" class="g-image g-image--loaded" width="860"></noscript></figure></a><div class="card-content"><a href="/gridsome-bulma/a-post-with-a-cover-image" class="is-size-4 has-text-weight-bold">
+      A post with a cover image
+    </a><p class="content">Markdown is intended to be as easy-to-read and easy-to-write as is feasible. Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions.</p><div class="content">
+  Posted 7. January 2019.
+  <strong>1 min read.</strong></div></div><!----></div></div></main><footer class="footer has-text-centered"><span>Copyright © 2019. </span><span>Powered by <a href="//gridsome.org"> Gridsome </a></span></footer></div>
+    <script src="/gridsome-bulma/assets/js/app.8f16557a.js" defer></script><script src="/gridsome-bulma/assets/js/component--tag.2a22570c.js" defer></script>
+  </body>
+</html>
