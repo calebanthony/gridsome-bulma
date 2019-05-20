@@ -1,12 +1,12 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Blog Starter',
-  siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.',
+  siteName: 'Gridsome Bulma Starter',
+  siteDescription: 'A baseline Gridsome starter to get you going with Bulma.',
 
   plugins: [
     {
@@ -21,22 +21,22 @@ module.exports = {
           tags: {
             typeName: 'Tag',
             route: '/tag/:id',
-            create: true
-          }
-        }
-      }
-    }
+            create: true,
+          },
+        },
+      },
+    },
   ],
 
   transformers: {
-    //Add markdown support to all file-system sources
+    // Add markdown support to all file-system sources
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
       plugins: [
-        '@gridsome/remark-prismjs'
-      ]
-    }
+        '@gridsome/remark-prismjs',
+      ],
+    },
   },
-}
+};

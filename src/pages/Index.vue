@@ -1,13 +1,16 @@
 <template>
-  <Layout :show-logo="false">
+  <Layout>
     <!-- Author intro -->
     <Author :show-title="true" />
-    
+
     <!-- List posts -->
     <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+      <PostCard
+        v-for="edge in $page.posts.edges"
+        :key="edge.node.id"
+        :post="edge.node"
+      />
     </div>
-
   </Layout>
 </template>
 
@@ -24,14 +27,14 @@
           title
           path
         }
-        date (format: "D. MMMM YYYY")
+        date(format: "D. MMMM YYYY")
         timeToRead
         description
-        coverImage (width: 770, height: 380, blur: 10)
-        ...on Post {
-            id
-            title
-            path
+        coverImage(width: 770, height: 380, blur: 10)
+        ... on Post {
+          id
+          title
+          path
         }
       }
     }
@@ -40,16 +43,16 @@
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
-import PostCard from '~/components/PostCard.vue'
+import Author from '~/components/Author.vue';
+import PostCard from '~/components/PostCard.vue';
 
 export default {
   components: {
     Author,
-    PostCard
+    PostCard,
   },
   metaInfo: {
-    title: 'Hello, world!'
-  }
-}
+    title: 'Hello, world!',
+  },
+};
 </script>

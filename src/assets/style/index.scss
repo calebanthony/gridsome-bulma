@@ -1,7 +1,8 @@
-@import 'reset';
-@import 'variables';
-@import 'typography';
-@import 'base';
-@import 'code';
-@import 'content-box';
-@import 'utils';
+/** Import the Bulma variables */
+@import "variables";
+
+/** Import Bulma */
+@import "~bulma";
+
+/** Import overrides */
+@import "overrides";

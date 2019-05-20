@@ -5,9 +5,9 @@
 ## Features
 - Bulma!
 - Markdown for content.
-- Tags support.
+- ESLint (AirBnB base) with Vue and Babel integration.
+- Git Hooks for to lint before committing.
 - 100, 100, 100, 100 score on Google Lighthouse.
-- Uses same front-matter fields as Dev.to.
 
 ## Install
 

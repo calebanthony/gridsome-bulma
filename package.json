@@ -4,17 +4,40 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "lint": "eslint --ext .js,.vue src/ --fix"
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/remark-prismjs": "^0.0.4",
     "@gridsome/source-filesystem": "^0.3.0",
     "@gridsome/transformer-remark": "^0.2.0",
+    "bulma": "^0.7.5",
     "gridsome": "^0.5.0"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-gridsome": "^1.2.5",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-vue": "^5.2.2",
+    "lint-staged": "^8.1.7",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn lint",
+      "git add"
+    ],
+    "*.vue": [
+      "yarn lint",
+      "git add"
+    ]
   }
 }
