@@ -6,8 +6,11 @@
 - Bulma!
 - Markdown for content.
 - ESLint (AirBnB base) with Vue and Babel integration.
-- Git Hooks for to lint before committing.
-- 100, 100, 100, 100 score on Google Lighthouse.
+- Git Hooks for linting before committing.
+- Perfect score on Google Lighthouse.
+
+## Demo
+https://calebanthony.github.io/gridsome-bulma
 
 ## Install
 

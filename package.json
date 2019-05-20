@@ -5,6 +5,8 @@
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint --ext .js,.vue src/ --fix"
   },
   "dependencies": {
@@ -23,6 +25,7 @@
     "eslint-plugin-gridsome": "^1.2.5",
     "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-vue": "^5.2.2",
+    "gh-pages": "^2.0.1",
     "lint-staged": "^8.1.7",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0"

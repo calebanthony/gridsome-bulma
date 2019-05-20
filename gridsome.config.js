@@ -7,6 +7,8 @@
 module.exports = {
   siteName: 'Gridsome Bulma Starter',
   siteDescription: 'A baseline Gridsome starter to get you going with Bulma.',
+  siteUrl: 'https://calebanthony.github.io',
+  pathPrefix: '/gridsome-bulma',
 
   plugins: [
     {
