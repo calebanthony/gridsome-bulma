@@ -71,7 +71,7 @@ query Post($path: String!) {
     }
     description
     content
-    coverImage(width: 860, blur: 10)
+    cover_image(width: 860, blur: 10)
   }
 }
 </page-query>
