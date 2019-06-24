@@ -1,14 +1,14 @@
 <template>
   <div class="card">
     <g-link
-      v-if="post.coverImage"
+      v-if="post.cover_image"
       class="card-image"
       :to="post.path"
     >
       <figure class="image is-16by9">
         <g-image
           alt="Cover image"
-          :src="post.coverImage"
+          :src="post.cover_image"
         />
       </figure>
     </g-link>
