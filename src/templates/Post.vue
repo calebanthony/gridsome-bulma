@@ -12,12 +12,12 @@
 
     <div class="post content section container">
       <figure
-        v-if="$page.post.coverImage"
+        v-if="$page.post.cover_image"
         class="image is-16by9"
       >
         <g-image
           alt="Cover image"
-          :src="$page.post.coverImage"
+          :src="$page.post.cover_image"
         />
       </figure>
 
