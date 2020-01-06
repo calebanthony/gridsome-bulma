@@ -15,19 +15,18 @@
 </template>
 
 <page-query>
-query Tag($id: String!) {
-  tag(id: $id) {
+query Tag ($id: ID!) {
+  tag (id: $id) {
     title
     belongsTo {
       edges {
         node {
-          ... on Post {
+          ...on Post {
             title
             path
-            date(format: "D. MMMM YYYY")
+            date (format: "D. MMMM YYYY")
             timeToRead
             description
-            cover_image(width: 860, blur: 10)
             content
           }
         }

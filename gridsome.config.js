@@ -7,8 +7,11 @@
 module.exports = {
   siteName: 'Gridsome Bulma Starter',
   siteDescription: 'A baseline Gridsome starter to get you going with Bulma.',
-  siteUrl: 'https://calebanthony.github.io',
-  pathPrefix: '/gridsome-bulma',
+
+  templates: {
+    Post: '/:title',
+    Tag: '/tag/:id',
+  },
 
   plugins: [
     {
@@ -17,12 +20,10 @@ module.exports = {
       options: {
         typeName: 'Post',
         path: 'content/posts/*.md',
-        route: '/:slug',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: 'Tag',
-            route: '/tag/:id',
             create: true,
           },
         },

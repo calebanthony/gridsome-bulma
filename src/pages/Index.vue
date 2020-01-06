@@ -15,23 +15,18 @@
 </template>
 
 <page-query>
-{
-  posts: allPost {
+query {
+  posts: allPost(filter: { published: { eq: true }}) {
     edges {
       node {
         id
         title
-        path
-        tags {
-          id
-          title
-          path
-        }
-        date(format: "D. MMMM YYYY")
+        date (format: "D. MMMM YYYY")
         timeToRead
         description
-        cover_image(width: 770, height: 380, blur: 10)
-        ... on Post {
+        cover_image (width: 770, height: 380, blur: 10)
+        path
+        tags {
           id
           title
           path

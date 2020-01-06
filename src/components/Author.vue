@@ -7,7 +7,7 @@
     />
 
     <h1 v-if="showTitle">
-      {{ $static.metaData.siteName }}
+      {{ $static.metadata.siteName }}
     </h1>
 
     <p>A baseline Gridsome starter to get you going with Bulma.</p>
@@ -16,7 +16,7 @@
 
 <static-query>
 query {
-  metaData {
+  metadata {
     siteName
   }
 }

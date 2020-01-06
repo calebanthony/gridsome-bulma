@@ -3,13 +3,13 @@
     class="navbar-item is-size-4 has-text-weight-bold"
     to="/"
   >
-    {{ $static.metaData.siteName }}
+    {{ $static.metadata.siteName }}
   </g-link>
 </template>
 
 <static-query>
 query {
-  metaData {
+  metadata {
     siteName
   }
 }

@@ -11,11 +11,11 @@
   },
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
-    "@gridsome/remark-prismjs": "^0.0.4",
-    "@gridsome/source-filesystem": "^0.5.0",
-    "@gridsome/transformer-remark": "^0.2.0",
-    "bulma": "^0.7.5",
-    "gridsome": "^0.6.3"
+    "@gridsome/remark-prismjs": "^0.2.0",
+    "@gridsome/source-filesystem": "^0.6.0",
+    "@gridsome/transformer-remark": "^0.3.0",
+    "bulma": "^0.8.0",
+    "gridsome": "^0.7.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
@@ -27,8 +27,8 @@
     "eslint-plugin-vue": "^5.2.2",
     "gh-pages": "^2.0.1",
     "lint-staged": "^8.1.7",
-    "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0"
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
