@@ -19,7 +19,7 @@
       >
         {{ post.title }}
       </g-link>
-      <p
+      <div
         class="content"
         v-html="post.description"
       />

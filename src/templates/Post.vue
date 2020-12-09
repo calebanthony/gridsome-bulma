@@ -21,7 +21,7 @@
         />
       </figure>
 
-      <p v-html="$page.post.content" />
+      <div v-html="$page.post.content" />
 
       <footer>
         <PostTags :post="$page.post" />
