@@ -1,0 +1,15 @@
+{
+    "name": "gridsome-bulma",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "gridsome",
+    "workspaceFolder": "/app/",
+    "runArgs": ["--user", "node"],
+    "extensions": [
+        "octref.vetur",
+        "eamodio.gitlens",
+        "patbenatar.advanced-new-file",
+        "dbaeumer.vscode-eslint",
+        "wix.vscode-import-cost"
+    ]
+}
+

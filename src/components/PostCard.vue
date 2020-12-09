@@ -38,8 +38,8 @@
 </template>
 
 <script>
-import PostMeta from '~/components/PostMeta';
-import PostTags from '~/components/PostTags';
+import PostMeta from '~/components/PostMeta.vue';
+import PostTags from '~/components/PostTags.vue';
 
 export default {
   components: {
