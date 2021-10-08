@@ -10,15 +10,14 @@
     "lint": "eslint --ext .js,.vue src/ --fix"
   },
   "dependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/remark-prismjs": "^0.2.0",
     "@gridsome/source-filesystem": "^0.6.0",
-    "@gridsome/transformer-remark": "^0.3.0",
     "bulma": "^0.9",
     "gridsome": "^0.7.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.12.1",
+    "@gridsome/transformer-remark": "^0.3.0",
     "eslint": "^7.15.0",
     "eslint-config-airbnb-base": "^14.2",
     "eslint-import-resolver-alias": "^1.1.2",
